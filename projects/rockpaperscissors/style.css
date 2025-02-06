@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myfont;
+    src: url("PMDText.ttf");
+}
+
+body{
+    text-align: center;
+    margin: 0px;
+    font-family: myfont;
+    font-size: 20px;
+}
+
+#computerchoice{
+    width: 150px;
+    height: 175px;
+    background: none;
+    margin-top: 10px;
+}
+
+#playerchoice{
+    width: 150px;
+    height: 175px;
+    background: none;
+    margin-top: 10px;
+}
+
+.buttoncontainer button{
+    font-family: myfont;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: limegreen;
+    padding: 10px 10px;
+    border-width: 5px;
+    font-size: 20px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    transition: 0.25s;
+    width: 120px
+}
+
+.buttoncontainer button:hover{
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#title{
+    background-color:rgb(35, 35, 35);
+    color: white;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+#creator{
+    font-size: 30px;
+    color: white;
+}
+
+#creator:hover{
+    cursor: pointer;
+    color: lightgreen;
+}

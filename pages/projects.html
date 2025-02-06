@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <title>Steven Phung's Online Resume</title>
+    </head>
+
+    <!--BODY-->
+    <body>
+
+        <!--Page Wrapping-->
+        <div id="page-wrap">
+
+            <!--Header-->
+            <header>
+                <h1>Steven Phung</h1>
+                <p>Welcome To My Online Resume!</p>
+            </header>
+            <!--Header-->
+
+            <!--Container-->
+            <div id="container">
+
+                <!--Navigation-->
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">About Me</a></li>
+                        <li><a href="../pages/education.html">Education</a></li>
+                        <li><a href="../pages/experience.html">Experience</a></li>
+                        <li><a href="../pages/skillsandinterest.html">Skills and Interests</a></li>
+                        <li><a href="../pages/projects.html">Projects</a></li>
+                        <li><a href="../pages/contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+                <!--Navigation-->
+
+                <!--Main Content-->
+                <main>
+                    <!--Content Title-->
+                    <h2 id="content-title">Personal Projects</h2>
+                    <!--Content Title-->
+
+                    <!--Main Content Container-->
+                    <div id="main-container">
+
+                        <div id="main-text-container">
+                            <div class="projects">
+                                <h3><a href="../projects/cookieclicker/cookieclicker.html" target="_blank">Cookie Clicker</a></h3>
+                                <p class ="projDesc">
+                                    Yeah? Remember this game? This used to be one of the popular mobile apps
+                                    to play when you are bored! Very addicting too! Game is simple. Just tap or click
+                                    on the cookie to earn more cookies. Once you have enough, you
+                                    can buy power-ups! There is only one sadly.
+                                </p>
+                            </div>
+                            <div class="projects">
+                                <h3><a href="../projects/numbercounter/numbercounter.html" target="_blank">Number Counter</a></h3>
+                                <p class ="projDesc">
+                                    In this project, I created a Number Counter program! This is helpful for people
+                                    that have short term memory and allows them to not lose count. Such as keeping count
+                                    on number of coins, progress in video games, or teach children how to count.
+                                </p>
+                            </div>
+                            <div class="projects">
+                                <h3><a href="../projects/rockpaperscissors/rockpaperscissors.html" target="_blank">Rock, Paper, Scissors!</a></h3>
+                                <p class ="projDesc">
+                                    All of us have played this when we were kids. This game helps us decide
+                                    who gets to go first, depending on what activity it is. The rules are straight-forward.
+                                    Rock beats Scissors. Scissors beat Paper. Paper beats Rock. Try your best to
+                                    predict on what the CPU will throw out!
+                                </p>
+                            </div>
+                            <div class="projects">
+                                <h3>JavaScript Calculator</h3>
+                                <p class ="projDesc">
+                                    Need a calculator? Don't worry! This website has one right here!
+                                    Simply put in 2 of your inputs and press one of the buttons. It'll do
+                                    the math for you! We have addition, subtraction, multiplication, division, and power!
+                                    Here is an example: If you want to add two numbers, it will go in this order of 
+                                    "First Number + Second Number". Same for the rest of the operations.
+                                </p>
+                            </div>
+
+                            <!--Calculator-->
+                            <div id="calculator">
+                                <h2 id="calcTitle">Javascript Calculator</h2>
+                                <label id="firstLabel">First Number:</label>
+                                <input type="text" id="firstInput" class="inputBox">
+                                <label id="secondLabel">Second Number:</label>
+                                <input type="text" id="secondInput" class="inputBox">
+                                <div id="btnContainer">
+                                    <button onclick="additionBtn()">ADD</button>
+                                    <button onclick="subtractionBtn()">SUB</button>
+                                    <button onclick="multiplicationBtn()">MUL</button>
+                                    <button onclick="divisionBtn()">DIV</button>
+                                    <button onclick="exponentBtn()">POW</button>
+                                    <button onclick="clearBtn()">CLEAR</button>
+                                </div>
+
+                                <h2 type="text" id="outputText"></h2>
+                            </div>
+                            <!--Calculator-->
+
+                        </div>
+                        
+                    </div>
+                    <!--Main Content Container-->
+
+                </main>
+                <!--Main Content-->
+
+
+            </div>
+            <!--Container-->
+
+            <!--FOOTER-->
+            <footer>
+                <p>All Rights Reserved by Steven Phung: <a href="">Credits</a> &#169;</p>
+            </footer>
+            <!--FOOTER-->
+
+        </div>
+        <!--Page Wrapping-->
+
+        <script src="../javascripts/jscalculator.js"></script>
+
+    </body>
+    <!--BODY-->
+</html>

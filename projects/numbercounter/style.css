@@ -1,0 +1,57 @@
+@font-face {
+    font-family: PokemonFont;
+    src: url("PMDText.ttf");
+}
+
+html{
+    font-family: PokemonFont;
+}
+
+body{
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 25px;
+}
+
+#Number{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+#container{
+    text-align: center;
+}
+
+.button{
+    padding: 10px 20px;
+    border-style: groove;
+    border-radius: 15px;
+    border-color: lightgreen;
+    border-width: thick;
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+    font-family: PokemonFont;
+    font-size: 30px;
+}
+
+#Decrease{
+    width: 75px;
+}
+
+#Increase{
+    width: 75px;
+}
+
+#Reset{
+    width: 100px;
+}
+
+.button:hover{
+    background-color: rgb(75, 75, 75);
+    transition: 0.25s;
+}

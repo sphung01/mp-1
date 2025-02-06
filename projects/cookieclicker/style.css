@@ -1,0 +1,42 @@
+@font-face {
+    font-family: PKMNFont;
+    src: url("PMDText.ttf");
+}
+
+body{
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: PKMNFont;
+}
+
+#CookieLabel{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    background-color: rgb(40, 40, 40);
+    color:white;
+}
+
+#CookieBtn{
+    display: contents;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15em;
+}
+
+#CookieBtn:hover{
+    cursor: pointer;
+}
+
+#ClickBooster{
+    border-radius: 30px;
+    padding: 7px 7px;
+    font-family: PKMNFont;
+    font-size: 30px;
+}
+
+#ClickBooster:hover{
+    cursor: pointer;
+}

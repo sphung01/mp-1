@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "title">
+        <h1>Rock-Paper-Scissors</h1>
+        <a href = "" id = "creator">
+            Created By Steven Phung
+        </a>
+    </div>
+
+    <h1 id = "computerDisplay">COMPUTER: 0</h1> <!-- This is the computer -->
+    <img id = "computerchoice">
+    <br>
+    <img id = "playerchoice">
+    <h1 id = "playerDisplay">PLAYER: 0</h1> <!-- This is the player (you) -->
+
+    <!-- This divider will have three buttons -->
+    <!-- Rock, Paper, Scissors -->
+    <div class = "buttoncontainer"> 
+        <button onclick = "choice('rock')">Rock</button>
+        <button onclick = "choice('paper')">Paper</button>
+        <button onclick = "choice('scissors')">Scissors</button>
+        <button onclick = "reset()">Reset</button>
+    </div>
+
+    <h1 id = "resultDisplay"></h1>
+
+    <script src = "index.js"></script>
+</body>
+</html>
